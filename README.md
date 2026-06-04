@@ -113,6 +113,10 @@ the tool can flag review risk.
 
 ## Roadmap
 
+See [docs/ROADMAP.md](docs/ROADMAP.md) for the current milestone plan.
+
+Near-term work focuses on:
+
 - GitHub Actions examples for scheduled triage reports.
 - Configurable keyword rules through `maintainerkit.toml`.
 - Maintainer-owned label taxonomies.

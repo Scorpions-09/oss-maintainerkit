@@ -1,0 +1,23 @@
+name: Maintainer task
+description: Track documentation, examples, tests, or release work.
+title: "task: "
+labels: ["maintenance", "needs-triage"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should be true when this task is done?
+    validations:
+      required: true
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Checklist
+      value: |
+        - [ ] Add or update implementation
+        - [ ] Add or update tests
+        - [ ] Add or update docs
+    validations:
+      required: true
+
