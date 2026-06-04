@@ -1,0 +1,38 @@
+[
+  {
+    "number": 12,
+    "type": "issue",
+    "title": "Regression: login fails after upgrading to v1.4.0",
+    "body": "The login form returns a 500 error after upgrading. Expected the login page to redirect, actual result is a server error.",
+    "labels": [],
+    "author": "user-a"
+  },
+  {
+    "number": 18,
+    "type": "issue",
+    "title": "Possible token leak in debug logs",
+    "body": "Debug output may expose a secret token when verbose logging is enabled.",
+    "labels": [],
+    "author": "security-reporter"
+  },
+  {
+    "number": 24,
+    "type": "pr",
+    "title": "feat: add workspace import flow",
+    "body": "Adds import, validation, and migration paths.",
+    "changed_files": 19,
+    "additions": 830,
+    "deletions": 120,
+    "labels": ["enhancement"],
+    "author": "contributor-b"
+  },
+  {
+    "number": 31,
+    "type": "issue",
+    "title": "README typo in installation command",
+    "body": "The quick start has a typo in the editable install command.",
+    "labels": [],
+    "author": "first-time-contributor"
+  }
+]
+

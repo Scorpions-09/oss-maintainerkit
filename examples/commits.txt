@@ -1,0 +1,7 @@
+feat(triage): suggest labels for security-sensitive issues
+fix(release): keep unknown commit subjects in Other section
+docs(readme): add quick start examples
+ci: run tests on Python 3.11
+refactor!: rename old configuration keys
+deps: update packaging metadata
+
